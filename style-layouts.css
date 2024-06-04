@@ -1,0 +1,83 @@
+section, footer {
+  padding: 0 30px 30px 30px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header, footer {
+  text-align: center;
+  font-family: cursive;
+}
+
+#clipart1{ /* added clipart images on each side to make a pretty design to make it more presentable */
+  
+  float: left;
+  width: 100px;
+  height: 75px;
+}
+
+#clipart2{
+  float: right;
+  width: 100px;
+  height: 75px;
+}
+
+hr {
+  border-top: 4px dotted #FFB4B4; /* Decided to place a new dotted pink border */
+  max-width: 1000px;
+}
+
+#hero-container {
+  margin: auto;
+  max-width: 910px;
+  padding: 0 30px;
+}
+
+#owner {
+  background-image: url("img/owner.png");
+  background-repeat: none;
+  background-size: cover;
+  background-position: 0 30%;
+  height: 450px;
+  width: 100%;
+}
+
+.about-us p{
+  color: black; /* for the elderly, I wanted to make the text easier to read especially the lengthy ones*/
+}
+
+table {
+  width: 100%;
+}
+
+.specials img {
+  width: 200px;
+  border: solid 3px #FFB4B4;
+;
+}
+
+.specials td {
+  padding: 10px;
+  text-align: center;
+}
+
+.pricing-table h5{ /* decided to cross out the old prices to highlight the brand new ones*/
+  
+  text-decoration: line-through;
+  color: red;
+}
+
+.pricing-table h3{
+  text-decoration: 3px underline;
+  text-decoration-color: #FFB4B4;
+}
+
+iframe { 
+  width: 100%;
+  height: 350px;
+}
+
+.visit-us address {
+  font-weight: bold; /*highlight the address since it i s very important */
+  color: black;
+}
